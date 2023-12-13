@@ -122,10 +122,24 @@ main h1 {
 .item {
   background-color: var(--primary-color);
   border-radius: 0 0 8px 8px;
+
+  overflow: hidden;
 }
 
-.details { 
+.item img {
+  transition: all 0.5s ease-out;
+}
+
+.item img:hover {
+  filter: hue-rotate(7deg) contrast(100%) saturate(200%);
+  transform: scale(1.1) rotate(-2deg);
+}
+
+.details {
   padding: 2.2rem;
+  position: relative;
+  z-index: 1;
+  background-color: var(--primary-color);
 }
 
 .details h2 {
@@ -150,12 +164,6 @@ main h1 {
 figure img {
   border-radius: 8px 8px 0px 0px;
 }
-
-/* .item img {
-  width: 100%;
-  aspect-ratio: 16/9;
-  object-fit: cover;
-} */
 
 footer p {
   text-align: center;
