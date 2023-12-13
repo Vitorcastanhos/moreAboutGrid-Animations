@@ -112,11 +112,12 @@ ul li.active {
   cursor: pointer;
 }
 
-/*-------------------Gallery---------------------------------------------*/
 main h1 {
   padding-top: 2rem;
   font-size: 2.4rem;
 }
+
+/*-------------------Gallery---------------------------------------------*/
 
 .gallery {
   margin-top: 3.6rem;
@@ -172,12 +173,16 @@ figure img {
   border-radius: 8px 8px 0px 0px;
 }
 
+/*-------------------Footer---------------------------------------------*/
+
 footer p {
   text-align: center;
   padding: 1.6rem;
 
   font-weight: 600;
 }
+
+/*-------------------Keyframes--------------------------------*/
 
 header {
   --startY: -100%;
