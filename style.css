@@ -171,3 +171,19 @@ footer p {
 
   font-weight: 600;
 }
+
+header {
+  --startY: -100%;
+  animation: move 0.3s;
+}
+
+footer {
+  --startY: 100%;
+  animation: move 0.3s;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(var(--startY));
+  }
+}
