@@ -187,3 +187,18 @@ footer {
     transform: translateY(var(--startY));
   }
 }
+
+.item {
+  --delay: 0.3s;
+  animation: appear 0.3s var(--delay) backwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
