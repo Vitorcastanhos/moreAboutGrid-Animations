@@ -11,12 +11,13 @@
 :root {
   font-size: 62.5%;
 
-  --primary-color: #ffffff;
-  --input-bg-color: #eee;
-  --inputplaceholder-bg-color: #3d3d3d;
-  --main-bg-color: #f5f5f5;
-  --nav-bg-color: #8d8d99;
-  --text-bg-color: #202024;
+  --hue: 50;
+  --primary-color: hsl(var(--hue), 50%, 100%);
+  --input-bg-color: hsl(var(--hue), 50%, 93%);
+  --inputplaceholder-bg-color: hsl(var(--hue), 50%, 24%);
+  --main-bg-color: hsl(var(--hue), 80%, 90%);
+  --nav-bg-color: hsl(var(--hue), 50%, 58%);
+  --text-bg-color: hsl(var(--hue), 50%, 45%);
 }
 
 html,
@@ -65,6 +66,8 @@ nav ul {
   list-style: none;
   font-size: 1.8rem;
   color: var(--nav-bg-color);
+
+  cursor: pointer;
 }
 
 ul li.active {
@@ -89,6 +92,8 @@ ul li.active {
 
   font-size: 1.6rem;
   font-weight: 600;
+
+  outline: none;
 }
 
 .input-wrapper input::placeholder {
@@ -103,6 +108,8 @@ ul li.active {
   object-fit: cover;
 
   border-radius: 50%;
+
+  cursor: pointer;
 }
 
 /*-------------------Gallery---------------------------------------------*/
