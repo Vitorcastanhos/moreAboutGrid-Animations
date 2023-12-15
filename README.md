@@ -1,8 +1,8 @@
-## 🚀 moreAboutGrid&Animations 🚀 ##
+# 🚀 moreAboutGrid&Animations 🚀
 
-## 📝 Description:
+## 🔥 Description:
 
-In this project, we practiced and learned more about animations, transitions, transform, and grids. Playing a little with those configurations.
+* In this project, we practiced and learned more about animations, transitions, transform, and grids. Playing a little with those configurations.
 
 <br>
 
@@ -13,41 +13,42 @@ In this project, we practiced and learned more about animations, transitions, tr
 
 ## Getting Started
 
-To view the webpage, open the index.html file in a web browser. The right side of this readme ==>>
+* To view the webpage, open the index.html file in a web browser. The right side of this readme ==>>
 
 <br>
 
 ## File Structure
 
-index.html: Main HTML file <br>
-style.css: Stylesheet for the webpage <br>
-img: Directory containing images used in the project <br>
-assets: Directory containing icon SVG
+* index.html: Main HTML file <br>
+* style.css: Stylesheet for the webpage <br>
+* img: Directory containing images used in the project <br>
+* assets: Directory containing icon SVG
 
 <br>
 
 ## Usage
 
-Feel free to customize the content, styles, and images to suit your project. You can replace the placeholder text and images with your own.
+* Feel free to customize the content, styles, and images to suit your project. You can replace the placeholder text and images with your own.
 
 <br>
 
 ## 👋🏻 Author
 
-@Vitorcastanhos
+* Maik Brito
+* Vitorcastanhos
 
 <br>
 
-![GitHub License](https://img.shields.io/github/license/jaywcjlove/tools)
+## 📝 License
 
-This project is licensed under the MIT License.
+* ![GitHub License](https://img.shields.io/github/license/jaywcjlove/tools)
 
 <br>
 
 ## Acknowledgments
 
-Fonts: Mulish, Sans Serif <br>
-Images: Downloaded from Figma, it can be replaced.
+* Fonts: Mulish, Sans Serif <br>
+* Images: Downloaded from Figma, it can be replaced.
 
 <br/>
 
